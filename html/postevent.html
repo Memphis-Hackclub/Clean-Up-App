@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Make an Event
+</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <center>
+  <br>
+<form action="/add" method="POST"><br>
+<h1>Make a Clean Up Event</h1><br>
+<label>Event Title<br><input maxlength="200" id="title" name="title"><br></label>
+<label>Event Description<br> <textarea maxlength="500" id="description" name="description" rows="4" cols="50"></textarea><br></label>
+<label>How many volenteers?<br><input type="text" maxlength="200" id ="volenteers" name="volenteers"><br></label>
+<label>Date and Time<br><input type="text" maxlength="200" id="date" name="date"><br></label>
+<label>Contact Info<br><input type="text" maxlength="200" id="contact" name="contact"><br></label>
+<label>Add an Image<br><input type="file" name="fileToUpload" id="fileToUpload"></label><br>
+<h1>Event Location Details</h1>
+<label>Country<br><input type="text" maxlength="200" id="country" name="country"></label><br>
+<label>State/Providence/Territory<br><input type="text" maxlength="200" id="state" name="state"></label><br>
+<label>Event Address<br><input type="text" maxlength="200" id="address"name="address"></label><br>
+<p>Or use your location</p>
+  <input type="checkbox" name="map" value="true" checked>
+  <label for="map">Use my location, I am at the site.</label><br><br>
+<label><input type="submit" id="list" name="submit" value="Add Your Event"></label> 
+<br>
+<br>
+</form>
+
+<br>
+<br>
+<br>
+<!-- <form action="/fileupload" method="POST" enctype="multipart/form-data">');
+    <input type="file" name="filetoupload"><br>
+    <input type="submit">
+    </form> -->
+<a href="/">View Other Events</a>
+</center>
+</body>
+</html>

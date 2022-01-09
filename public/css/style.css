@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Kanit:ital@1&display=swap');
+        
+body{
+         background-color:#ffffff;
+ 
+}
+
+h1{
+ color:#00DF5C;
+ font-family: 'Kanit', sans-serif;
+ text-shadow: 2px 2px 2px #8ddeb6;
+}
+
+label{
+  font-size: .8em;
+  font-family: 'Heebo', sans-serif;
+  color: #7f7f7f;
+}
+
+p,a{
+  font-size: 1em;
+  font-family: 'Heebo', sans-serif;
+  color: #41D5C0;
+}
+
+
+form {
+  background-color:#f7f7f7;
+  margin-right:1.5em;
+  margin-left:1.5em;
+  border-radius:.5em;
+}
+
+input{
+  background-color:#f7f7f7;
+  border-radius:.5em;
+}
+
+#list{
+   background-color:#00DF5C;
+   color: #ffffff;
+    border-radius:2em;
+    font-family: 'Heebo', sans-serif;
+}
