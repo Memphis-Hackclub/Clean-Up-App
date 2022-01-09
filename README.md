@@ -14,4 +14,4 @@ Our website provides a platform for people to reduce the harm trash causes to th
 # Reference 
 
 # Contacts
-(Wenchi Liu)
+(Wenchi Liu)[https://www.linkedin.com/in/wenchi-liu-294a96210/]
