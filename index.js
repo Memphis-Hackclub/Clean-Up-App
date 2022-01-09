@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const http = require('http');
 const formidable = require('formidable');
 const fs = require('fs');
+var localStorage = require('localStorage')
 
 app.set('views', './html');
 app.set('view engine', 'ejs');

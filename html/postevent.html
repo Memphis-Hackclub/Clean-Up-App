@@ -19,16 +19,19 @@ Make an Event
 <label>How many volenteers?<br><input type="text" maxlength="200" id ="volenteers" name="volenteers"><br></label>
 <label>Date and Time<br><input type="text" maxlength="200" id="date" name="date"><br></label>
 <label>Contact Info<br><input type="text" maxlength="200" id="contact" name="contact"><br></label>
-<label>Add an Image<br><input type="file" name="fileToUpload" id="fileToUpload"></label><br>
+
 <h1>Event Location Details</h1>
 <label>Country<br><input type="text" maxlength="200" id="country" name="country"></label><br>
 <label>State/Providence/Territory<br><input type="text" maxlength="200" id="state" name="state"></label><br>
 <label>Event Address<br><input type="text" maxlength="200" id="address"name="address"></label><br>
 <p>Or use your location</p>
-  <input type="checkbox" name="map" value="true" checked>
-  <label for="map">Use my location, I am at the site.</label><br><br>
+  <input id="map" type="checkbox"  name="map" value="true" checked>
+  <label for="map">Use my location, I am at the clean up site.</label><br><br>
+  <br><label>Your location only used if you consent above</label><br>
+  <textarea maxlength="500" id="loc" name="loc" rows="1" cols="50">Not Given</textarea><br>
 <label><input type="submit" id="list" name="submit" value="Add Your Event"></label> 
 <br>
+
 <br>
 </form>
 
@@ -41,5 +44,10 @@ Make an Event
     </form> -->
 <a href="/">View Other Events</a>
 </center>
+<p id='test'></p>
 </body>
+<script>document.getElementById('map').innerHTML = 'test';</script>
+<script src="js/script.js">
+
+</script>
 </html>
