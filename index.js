@@ -7,7 +7,6 @@ const http = require('http');
 const formidable = require('formidable');
 const fs = require('fs');
 
-
 app.set('views', './html');
 app.set('view engine', 'ejs');
 
@@ -101,28 +100,7 @@ function getData(parms, res){
 
 }
 
-function getLocation(){
-  navigator.geolocation.getCurrentPosition(locationSuccess, locationError);
 
-}
 
-function locationSuccess(position) {
-    latitude = position.coords.latitude;
-    longitude = position.coords.longitude;
-
-    console.log(latitude)
-    console.log(longitude)
-
-        
-        getWeather(latitude,longitude) 
-        document.querySelector('.main-weather').style.display = "block";
-}
-
-function locationError(error) {
-    const code = error.code;
-    const message = error.message;
-
-    
-}
 
 
