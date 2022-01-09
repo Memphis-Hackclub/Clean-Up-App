@@ -171,20 +171,22 @@ function getData(parms, res) {
         title = title+String(Math.floor(Math.random() * 1000000));
 
       }
+      title = title+".html";
+      fs.writeFileSync(directoryPath1+"/"+title, htmlCode)
+
 
     });
   });
-  title = title+".html";
-try {
-  fs.writeFileSync('/'+title+'', htmlCode)
-  //file written successfully
-} catch (err) {
-  console.error(err)
+
+  
+
+
+  
 }
 
 
 
-}
+
 
 function generateEvents(){
   html ="";

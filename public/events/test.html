@@ -1,18 +1,36 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${title}</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-  <center>
-  <h1>${title}</h1><br>
-  <p>${date}</p>
-  <p>Located At ${address} ${state} ${country}</p>
-  <div id='map'></div>
-  <p>${des}</p>
-  <p>${vol}</p>
-  <p>${contact}</p>
-  </center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tn</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<center>
+<h1>tn</h1><br>
+<p>tn</p>
+<p>Located At tn tn tn</p>
+<div id='map'></div>
+<p>tn</p>
+<p>tn</p>
+<p>tn</p>
+</center>
+
+    <script>
+  function initMap() {
+    const uluru = { lat: 35.225834564347956, lng: -89.85711582217401 };
+    const map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: uluru,
+    });
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+</script>
+<script async
+src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCTHcHItfwveNpUx8810Px_lWL82owjTUk&callback=initMap&libraries=&v=weekly
+'>
+</script>
